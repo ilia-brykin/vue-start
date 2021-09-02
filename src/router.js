@@ -1,25 +1,19 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Start from './views/Start/Start.vue'
-// import About from './views/About.vue'
+import Vue from "vue";
+import Router from "vue-router";
+import Start from "./views/Start/Start.vue";
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
+  mode: "history",
   routes: [
     {
-      path: '/',
-      name: 'home',
+      path: "/",
+      name: "home",
       component: Start
     },
-    { path: '*',
+    { path: "*",
       component: Start
-    }
-    // {
-    //   path: '/about',
-    //   name: 'about',
-    //   component: About
-    // }
-  ]
-})
+    },
+  ],
+});
