@@ -1,10 +1,11 @@
 var OFF = 0, WARN = 1, ERROR = 2;
 
 module.exports = exports = {
-  // parser: "../../tools/node_modules/babel-eslint",
+  parser: "@babel/eslint-parser",
   parserOptions: {
+    requireConfigFile: false,
     allowImportExportEverywhere: true,
-    ecmaVersion: 2018,
+    ecmaVersion: 8,
     sourceType: "module",
     impliedStrict: true,
     ecmaFeatures: {
