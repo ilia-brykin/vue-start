@@ -2,4 +2,4 @@
 /assets/styles/*
 /.idea/*
 /node_modules/*
-
+/dist/*
