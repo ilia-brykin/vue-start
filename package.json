@@ -11,11 +11,7 @@
     "build": "webpack --mode=production --config build/webpack.prod.js"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1",
-    "@babel/runtime": "^7.16.0",
-    "@babel/runtime-corejs3": "^7.16.0",
     "axios": "^0.24.0",
-    "core-js": "^3.19.1",
     "vue": "^3.2.21",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
@@ -24,11 +20,15 @@
     "@babel/core": "^7.16.0",
     "@babel/eslint-parser": "^7.16.0",
     "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.16.0",
+    "@babel/runtime": "^7.16.0",
+    "@babel/runtime-corejs3": "^7.16.0",
     "@vue/compiler-sfc": "^3.2.21",
     "@webpack-cli/generators": "^2.4.1",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
+    "core-js": "^3.19.1",
     "css-loader": "^6.5.1",
     "eslint": "^8.1.0",
     "eslint-webpack-plugin": "^3.1.0",
